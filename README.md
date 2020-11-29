@@ -5,7 +5,7 @@ This project contains the following Catkin packages :
 * renato_robot: 
     * Implementation of a differential drive robot with lidar sensor and camera, written in URDF.
     * Contains a world called `restaurant_renato.world`.
-    * Contains a rviz_amcl.rviz file with a preset of rviz configs for this project.
+    * Contains a `rviz_amcl.rviz` file with a preset of rviz configs for this project.
     * Launch files
         * `amcl.launch`: amcl node.
         * `world.launch`: gazebo world and spawn robot.
