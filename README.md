@@ -4,14 +4,15 @@ Course project "Where Am I" repository for the Udacity Robotics Software Enginee
 This project contains the following Catkin packages :
 * renato_robot: 
     * Implementation of a differential drive robot with lidar sensor and camera, written in URDF.
-    * Contains a world called `restaurant_renato.world`
+    * Contains a world called `restaurant_renato.world`.
+    * Contains a `rviz_amcl.rviz` file with a preset of rviz configs for this project.
     * Launch files
         * `amcl.launch`: amcl node.
         * `world.launch`: gazebo world and spawn robot.
  
 
 ## Installation
-Clone this repository in **src** folder in your catkin workspace
+Clone this repository in **src** folder in your catkin workspace and following repositories bellow:
 ```
 cd ~/catkin_ws/src
 git clone https://github.com/rodriguesrenato/rse-nd-project-3.git
