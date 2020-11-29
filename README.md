@@ -1,9 +1,8 @@
 # rse-nd
-Course projects repository for the Udacity Robotics Software Engineer Nanodegree program.
+Course project "Where Am I" repository for the Udacity Robotics Software Engineer Nanodegree program.
 
 This project contains the following Catkin packages :
-* renato_robot: Implementation of a differential drive robot with lidar sensor and camera, written in URDF.
-* ball_chaser: An algorithm using OpenCV to track a ball position and send velocity messages to a simulated robot (renato_robot pkg).
+* renato_robot: Implementation of a differential drive robot with lidar sensor and camera, written in URDF. Contains a world called `restaurant_renato.world`
 * project1: A restaurant gazebo world made for Project 1.
 
 ## Installation
