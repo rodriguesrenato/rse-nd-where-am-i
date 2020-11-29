@@ -2,8 +2,8 @@
 Course projects repository for the Udacity Robotics Software Engineer Nanodegree program.
 
 This project contains the following Catkin packages :
-* my_robot: Implementation of a differential drive robot with lidar sensor and camera, written in URDF.
-* ball_chaser: An algorithm using OpenCV to track a ball position and send velocity messages to a simulated robot (my_robot pkg).
+* renato_robot: Implementation of a differential drive robot with lidar sensor and camera, written in URDF.
+* ball_chaser: An algorithm using OpenCV to track a ball position and send velocity messages to a simulated robot (renato_robot pkg).
 * project1: A restaurant gazebo world made for Project 1.
 
 ## Installation
@@ -20,5 +20,9 @@ catkin_make
 source devel/setup.bash
 ```
 Use the .launch files to launch packages.
+```
+roslaunch renato_robot world.launch
+```
+
 ## License
 The contents of this repository are covered under the MIT License.
