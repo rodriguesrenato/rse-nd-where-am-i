@@ -78,7 +78,7 @@
           </horizontal>
         </scan>
         <range>
-          <min>0.010</min>
+          <min>0.10</min>
           <max>30.0</max>
           <resolution>0.01</resolution>
         </range>
@@ -117,7 +117,7 @@
       <publishWheelTF>false</publishWheelTF>
       <publishWheelJointState>false</publishWheelJointState>
       <rosDebugLevel>na</rosDebugLevel>
-      <wheelAcceleration>0</wheelAcceleration>
+      <wheelAcceleration>1.0</wheelAcceleration>
       <wheelTorque>20</wheelTorque>
       <odometrySource>world</odometrySource>
       <publishTf>1</publishTf>
