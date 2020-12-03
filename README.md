@@ -9,7 +9,8 @@ This project contains the following Catkin packages :
     * Launch files
         * `amcl.launch`: amcl node.
         * `world.launch`: gazebo world and spawn robot.
- 
+
+Screenshots folder where included with screens hots of each part of the amcl simulation and converging to robot's real position.
 
 ## Installation
 Clone this repository in **src** folder in your catkin workspace and following repositories bellow:
