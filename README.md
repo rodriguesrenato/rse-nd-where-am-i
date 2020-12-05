@@ -30,7 +30,7 @@ cd ~/catkin_ws
 catkin_make
 source devel/setup.bash
 ```
-Use the .launch files to launch packages.
+Use the .launch files to launch packages in the following sequence:
 * Terminal 1: `roslaunch renato_robot world.launch`
 * Terminal 2: `roslaunch renato_robot amcl.launch`
 * Terminal 3: `roslaunch renato_robot rviz_amcl.launch`
