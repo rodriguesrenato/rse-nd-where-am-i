@@ -16,8 +16,8 @@ Screenshots folder where included with screens hots of each part of the amcl sim
 Clone this repository in **src** folder in your catkin workspace and following repositories bellow:
 ```
 cd ~/catkin_ws/src
-git clone https://github.com/rodriguesrenato/rse-nd-project-3.git
-cd rse-nd-project-3
+git clone https://github.com/rodriguesrenato/rse-nd-where-am-i.git
+cd rse-nd-where-am-i
 git clone https://github.com/ros-teleop/teleop_twist_keyboard
 git clone https://github.com/udacity/pgm_map_creator.git
 ```
