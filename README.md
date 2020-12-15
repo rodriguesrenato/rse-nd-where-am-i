@@ -1,4 +1,4 @@
-# rse-nd-project-3
+# rse-nd-where-am-i
 Course project "Where Am I" repository for the Udacity Robotics Software Engineer Nanodegree program.
 
 This project contains the following Catkin packages :
